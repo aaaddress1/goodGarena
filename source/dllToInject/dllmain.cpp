@@ -1,7 +1,12 @@
 ﻿// dllmain.cpp : 定義 DLL 應用程式的進入點。
 #include "pch.h"
 #include <iostream>
-
+#include <wchar.h>
+#include <Windows.h>
+#include <TlHelp32.h>
+#include <Shlwapi.h>
+#pragma comment(lib, "Shlwapi.lib")
+#pragma warning(disable:4996)
 #define JMP(from, to) (int)(((int)to - (int)from) - 5);
 
 void Jump(unsigned long ulAddress, void* Function, unsigned long ulNops) {
@@ -18,21 +23,6 @@ void Jump(unsigned long ulAddress, void* Function, unsigned long ulNops) {
     catch (...) {}
 }
 
-size_t orginalPtr_checkProcessRunning = 0;
-size_t __declspec(naked) orginal_checkProcessRunning(LPCWSTR lpString2) {
-    _asm {
-        push ebp
-        mov ebp, esp
-        sub esp, 00000234   
-        jmp [orginalPtr_checkProcessRunning]
-    }
-}
-#include <wchar.h>
-#include <Windows.h>
-#include <TlHelp32.h>
-#include <Shlwapi.h>
-#pragma comment(lib, "Shlwapi.lib")
-#pragma warning(disable:4996)
 void killProcessByName(const wchar_t* filename)
 {
     HANDLE hSnapShot = CreateToolhelp32Snapshot(TH32CS_SNAPALL, NULL);
