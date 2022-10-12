@@ -22,7 +22,7 @@ Garena 競時通順暢開遊戲小補丁
 (2.) 並安裝 `goodGarena.sdb` 來對 `Garena.exe` 自動注入 `goodGarena.dll` 
 
 補丁僅需執行一次永久有效（即便 Garena 版本更新）重開機也不必再次執行補丁工具
-
+每次 Garena 啟動後會有一聲 500ms 的 Beep 聲通知你當前 Patch 已被掛載 :)
 
 <a href="https://www.buymeacoffee.com/aaaddress1" target="blank"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="aaaddress1" /></a></p>
 
