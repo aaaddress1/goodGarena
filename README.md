@@ -12,7 +12,7 @@ Garena 競時通順暢開遊戲小補丁
 ## 本專案解法
 通過逆向工程可以發現 Garena 競時通基於 QT5 撰寫，底層調用了自行開發的 `commutil.dll` 內部串 google IPC 模組進行溝通。
 並且可以發現此模組導出函數 `ProcessHelper::checkProcessRunning(WCHAR* exeName)` 用於檢查指定 Process 是否存活。
-在每次 Garena 確認遊戲是否存活前會先比對 `gxxapphelper.exe` 是否存活，應該對這個函數掛鉤就可以在用戶按下「啟動鍵」的當下將背景 LOL 背景程式關乾淨。
+在每次 Garena 確認遊戲是否存活前會先比對 `gxxapphelper.exe` 是否存活，因此對這個函數掛鉤就可以在用戶按下「啟動鍵」的當下將背景 LOL 背景程式關乾淨。
 
 ## 使用方式
 解壓縮後有三份文件 `dllPatch.dll`, `goodGarena.sdb` 與 `RunMe.bat` 
