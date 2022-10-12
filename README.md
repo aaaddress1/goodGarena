@@ -22,3 +22,12 @@ Garena 競時通順暢開遊戲小補丁
 (2.) 並安裝 `goodGarena.sdb` 來對 `Garena.exe` 自動注入 `goodGarena.dll` 
 
 補丁僅需執行一次永久有效（即便 Garena 版本更新）重開機也不必再次執行補丁工具
+
+
+<a href="https://www.buymeacoffee.com/aaaddress1" target="blank"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="aaaddress1" /></a></p>
+
+<a href="https://twitter.com/aaaddress1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="aaaddress1" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/aaaddress1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="aaaddress1" height="30" width="40" /></a>
+<a href="https://fb.com/aaaddress1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="aaaddress1" height="30" width="40" /></a>
+<a href="https://instagram.com/aaaddr1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="aaaddr1" height="30" width="40" /></a>
+  
